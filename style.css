@@ -1,0 +1,28 @@
+.full-page {
+    display: flex;
+}
+
+.left-side {
+    background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+}
+
+.right-side {
+    width: 60%;
+    height: 100%;
+}
+
+form {
+    
+}
+
+.inputs-container {
+    display: flex;
+}
+
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+}
