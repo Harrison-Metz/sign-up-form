@@ -4,9 +4,9 @@
 }
 
 html, body {
-  height: 100%;
-  margin: 0; 
-  padding: 0; 
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
 }
 
 .full-page {
@@ -52,31 +52,95 @@ img {
     text-align: center;
 }
 
+.image-creator a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
 .right-side {
-    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 60%;
     height: 100%;
-    padding: 0 10% 0 10%;
+    padding-top: 10%;
+}
+
+.right-side h1, h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.right-side h1 {
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    margin-left: 10%;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
 }
 
 form {
-    width: 100%;
+    margin-top: 1rem;
+}
+
+form h2 {
+    font-size: 1.25rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    border: 2px solid;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    padding: 0.1rem 0.5rem;
+}
+
+input:focus {
+    outline-color: blue;
+}
+
+.password:invalid {
+    outline-color: red;
+}
+
+
+
+label {
+    font-size: .75rem;
 }
 
 .form-background {
     width: 100%;
-    
+    padding-left: 10%;
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
     box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .inputs-container {
     display: flex;
+    gap: 10%;
 }
 
 .form-left, .form-right {
     display: flex;
     flex-direction: column;
 }
+
+.right-side h3, a{
+    font-weight: normal;
+    font-size: 0.75rem;
+    text-decoration: none;
+}
+
+.right-side a {
+    color: #596D48;
+}
+
